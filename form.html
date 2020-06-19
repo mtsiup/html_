@@ -18,8 +18,7 @@
 
         <label> 
             <input type="radio" name="lang">ENG 
-        </label>
-        
+        </label>   
     </nav>   
  
     <header>
@@ -29,10 +28,186 @@
     <main>
         <p>Для проходження опитування, вкажіть, будь ласка, свої відповіді в анкеті нижче:</p>
 
+        <form action="https://formspree.io/xeqrzgbr" method="POST"> 
+            <label><b>Ваше ім'я:</b>
+                 <input type="text" name="name" placeholder="Enter your name" required>
+            </label>
+            
+            <br> 
+            <br>
+          
+            <label><b>Ваш e-mail:</b>
+                 <input type="email" name="e-mail" placeholder="Enter your e-mail" required>
+            </label>
+             
+            <br> 
+            <br>
+        
+            <label>Ваша стать:</label><br>
+             <label>
+                <input type="radio" name="gender" value="male">Чоловік<br>
+            </label>
+            
+            <label>
+                <input type="radio" name="gender" value="female">Жінка<br>
+            </label>
+             
+            <label>
+                <input type="radio" name="gender" value="other">Інша<br>
+            </label>
 
+            <br> 
+            <br>
+            
+            <label>Ваш вік:</label><br>
+             <label>
+                <input type="radio" name="age" value="18">менше 18<br>
+            </label>
+            
+            <label>
+                <input type="radio" name="age" value="18_25">18 - 25<br>
+            </label>
+            
+            <label>
+                <input type="radio" name="age" value="25">більше 25<br>
+            </label>
 
+            <br> 
+            <br>
 
+            <label>Ваше місце проживання:</label><br>
+             <label>
+                <input type="radio" name="place" value="village">село<br>
+            </label>
+            
+            <label>
+                <input type="radio" name="place" value="town">місто<br>
+            </label>
+             
+            <label>
+                <input type="radio" name="place" value="smt">смт.<br>
+            </label>
 
+            <br> 
+            <br>
+
+            <label>Чи користуєтеся Ви соціальними мережами в Інтернеті?</label><br>
+             <label>
+                <input type="radio" name="do_use" value="yes">так<br>
+            </label>
+            
+            <label>
+                <input type="radio" name="do_use" value="no">ні<br>
+            </label>
+             
+            <label>
+                <input type="radio" name="do_use" value="yes_no">у мене є профіль, але я рідко користуюсь ним<br>
+            </label>
+
+            <br> 
+            <br>
+
+            <label>Чому Ви не користуєтеся соціальними мережами?</label><br>
+            <label>
+                <input type="checkbox" name="why" value="bad">соціальні мережі погано впливають на людей<br>
+            </label>
+            
+            <label>
+                <input type="checkbox" name="why" value="time">немає бажання і часу<br>
+            </label>
+             
+            <label>
+                <input type="checkbox" name="why" value="other">інша причина<br>
+            </label>
+            
+            <label>
+                <input type="checkbox" name="why" value="iuse">я користуюся соц. мережами
+            </label>
+               
+            <br> 
+            <br>
+
+            <label>Якою соціальною мережею Ви користуєтеся найчастіше?</label><br>
+            <label>
+                <input type="checkbox" name="what" value="classmate">Однокласники<br>
+            </label>
+            
+            <label>
+                <input type="checkbox" name="what" value="facebook">Facebook<br>
+            </label>
+             
+            <label>
+                <input type="checkbox" name="what" value="twitter">Twitter<br>
+            </label>
+             
+            <label>
+                <input type="checkbox" name="what" value="skype">Skype<br>              
+            </label>
+             
+            <label>
+                <input type="checkbox" name="what" value="insta">Instagram<br>              
+            </label>
+             
+            <label>
+                <input type="checkbox" name="what" value="other">Інша              
+            </label>
+               
+            <br> 
+            <br>
+
+            <label>Скільки часу на день Ви проводите в соціальній мережі?</label><br>
+            <label>
+                <input type="radio" name="howmuch" value="15">15 хвилин і менше<br>
+            </label>
+            
+            <label>
+                <input type="radio" name="howmuch" value="15_60">від 15 хвилин до години<br>
+            </label>
+             
+            <label>
+                <input type="radio" name="howmuch" value="60_180">від години до трьох<br>
+            </label>
+             
+            <label>
+                <input type="radio" name="howmuch" value="more180">більше трьох годин<br>
+            </label>
+               
+            <br> 
+            <br>
+
+            <label>Ви вважаєте себе залежним від соціальних мереж?</label><br>
+            <label>
+                <input type="radio" name="dependence" value="yes">так<br>
+            </label>
+             
+            <label>
+                <input type="radio" name="dependence" value="no">ні<br>
+            </label>
+             
+            <label>
+                <input type="radio" name="dependence" value="yes_no">важко відповісти<br>
+            </label>
+
+            <br> 
+            <br>
+
+            <label>Чи вважаєте Ви, що соціальні мережі можуть замінити живе спілкування? Чому ?</label><br>
+            <label>
+                <input type="text" name="replace" placeholder="Enter your answer"><br>
+            </label>
+
+            <br> 
+
+            <hr> 
+            <br>
+
+            <input type="submit">
+            <input type="reset" value="Очистити">
+
+            <br>
+            <br>
+            
+        </form>
 
     </main>
  
